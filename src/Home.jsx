@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/Header/Navbar'
 import Sidebar from './components/Header/Sidebar'
 import Card from './components/Card/Card'
-
+// import Createtemp from './components/Card/Createtemp'
 
 import "./App.css"
 
@@ -17,18 +17,11 @@ function Home() {
                 {/* <!-- Card section --> */}
                 <Card />
 
-
                 {/* <!-- sidebar section --> */}
-
-
                 <Sidebar />
 
-
                 {/* <!-- Navbar section --> */}
-
                 <Navbar />
-
-
             </div>
         </div>
     )

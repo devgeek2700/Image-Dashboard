@@ -47,7 +47,7 @@
     /* left: -20px; */
 }
 
-.card_container .card .imgcontent .UpdateBox{
+.card_container .card .imgcontent .UpdateBox {
     display: flex;
     align-items: center;
 }
@@ -66,13 +66,13 @@
 }
 
 
-.card_container .card .imgcontent .editBtns{
+.card_container .card .imgcontent .editBtns {
     display: flex;
     align-items: center;
     margin-right: 35%;
 }
 
-.card_container .card .imgcontent .editBtns i{
+.card_container .card .imgcontent .editBtns i {
     color: #9e9d9d;
     margin: 10px;
     font-size: 16px;

@@ -69,7 +69,7 @@
 .card_container .card .imgcontent .editBtns{
     display: flex;
     align-items: center;
-    margin-left: 35%;
+    margin-right: 35%;
 }
 
 .card_container .card .imgcontent .editBtns i{

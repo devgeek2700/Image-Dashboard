@@ -1,5 +1,7 @@
 import React from 'react'
-import page1 from '../assets/page-1.png'
+import page1 from '../../assets/page-1.png'
+import '../../App.css'
+
 
 function Navbar() {
   return (

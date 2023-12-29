@@ -1,7 +1,9 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Sidebar from './components/Sidebar'
-import Card from './components/Card'
+import Navbar from './components/Header/Navbar'
+import Sidebar from './components/Header/Sidebar'
+import Card from './components/Card/Card'
+
+
 import "./App.css"
 
 

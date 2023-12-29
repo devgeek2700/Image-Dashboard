@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './card.css'
 import axios from "axios";
-import Addimg from '../assets/Addimg.png'
+import Addimg from '../../assets/Addimg.png'
 import { Link } from 'react-router-dom'
 
 function Card() {

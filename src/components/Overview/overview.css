@@ -88,6 +88,11 @@
     color: #FFFFFF
 }
 
+#infopara{
+    color: black;
+    font-weight: 600;
+}
+
 /* Responsive */
 @media (max-width: 940px) {
     .container {

@@ -52,9 +52,17 @@ function Overview() {
 
                         {/* <!-- Product Description --> */}
                         <div class="product-description">
-                            <span>Author</span>
-                            <h1>{cardDetails.title}</h1>
-                            <p>{cardDetails.description}</p>
+                            <span>Information</span>
+                            <h1>Title: {cardDetails.title}</h1>
+                            <p id='infopara'>Description: {cardDetails.description}</p>
+                            <br />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, mollitia veritatis! Adipisci blanditiis nihil nostrum voluptas distinctio ab ullam iure
+                            blanditiis nihil nostrum voluptas distinctio ab ullam iure
+                            blanditiis nihil nostrum voluptas distinctio ab ullam iure.
+                            blanditiis nihil nostrum voluptas distinctio ab ullam iure
+                            blanditiis nihil nostrum voluptas distinctio ab ullam iure
+                            blanditiis nihil nostrum voluptas distinctio ab ullam iure.
+                            </p>
                         </div>
 
 

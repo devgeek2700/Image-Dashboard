@@ -1,0 +1,160 @@
+.card_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px 20px;
+    height: auto;
+}
+
+.card_container .card {
+    position: relative;
+    width: 37.4rem;
+    height: 27rem;
+    background: #fff;
+    left: 13.3rem;
+    top: 17.9rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.card_container .card .imgbox {
+    position: absolute;
+    width: 90%;
+    left: 20px;
+    height: 17rem;
+    border-radius: 1rem;
+    top: 15px;
+    overflow: hidden;
+}
+
+.card_container .card .imgbox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.card_container .card .imgcontent {
+    position: absolute;
+    width: 100%;
+    padding: 0 30px;
+    text-align: left;
+    top: 200px;
+    /* left: -20px; */
+}
+
+.card_container .card .imgcontent .UpdateBox {
+    display: flex;
+    align-items: center;
+}
+
+.card_container .card .imgcontent .UpdateBox h2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Work Sans, 'Source Sans Pro';
+}
+
+.card_container .card .imgcontent p {
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Work Sans, 'Source Sans Pro';
+    color: #f9782f;
+}
+
+
+.card_container .card .imgcontent .editBtns {
+    display: flex;
+    align-items: center;
+    margin-right: 35%;
+}
+
+.card_container .card .imgcontent .editBtns i {
+    color: #9e9d9d;
+    margin: 10px;
+    font-size: 16px;
+}
+
+
+
+
+/* popup form */
+
+.modal {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -120px;
+    bottom: 0;
+    left: 40px;
+    right: 0;
+    background: rgba(194, 193, 193, 0.7);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9999999;
+}
+
+.content {
+    position: absolute;
+    background: white;
+    width: 400px;
+    height: 330px;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.box-close {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #fe0606;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.imputBox {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+::placeholder {
+    font-size: 18px;
+}
+
+input {
+    width: 90%;
+    height: 40px;
+    margin-left: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #b5b3b3;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.CreateFmbtn {
+    width: 95%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(249, 120, 47);
+    color: #fff;
+    border: 0;
+}

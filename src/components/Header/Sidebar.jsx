@@ -1,16 +1,16 @@
 import React from 'react'
-import lineE from '../assets/line-E.png'
-import line from '../assets/line.png'
-import project from '../assets/project.png'
-import sample from '../assets/sample.png'
-import intro from '../assets/intro.png'
-import help from '../assets/help.png'
-import feedback from '../assets/feedback.png'
-import collapse from '../assets/collapse.png'
-import Apps from '../assets/apps.png'
-import logo from '../assets/logo.png'
+import lineE from '../../assets/line-E.png'
+import line from '../../assets/line.png'
+import project from '../../assets/project.png'
+import sample from '../../assets/sample.png'
+import intro from '../../assets/intro.png'
+import help from '../../assets/help.png'
+import feedback from '../../assets/feedback.png'
+import collapse from '../../assets/collapse.png'
+import Apps from '../../assets/apps.png'
+import logo from '../../assets/logo.png'
 
-import '../App.css'
+import '../../App.css'
 
 function Sidebar() {
     return (

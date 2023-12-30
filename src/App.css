@@ -22,7 +22,7 @@ body {
 
 .dashboard-6oo {
   width: 105.5%;
-  height: 100rem;
+  height: 110rem;
   position: relative;
   overflow: hidden;
   background-color: #f5f4f4;
@@ -135,7 +135,7 @@ body {
 
 .dashboard-6oo .bg-k8u {
   width: 24.1rem;
-  height: 100rem;
+  height: 110rem;
   position: absolute;
   left: 0;
   top: 0rem;
@@ -262,7 +262,7 @@ body {
   height: 2.8rem;
   position: absolute;
   left: 3.2rem;
-  top: 83.3rem;
+  top: 93.3rem;
   display: flex;
   align-items: center;
 }
@@ -292,7 +292,7 @@ body {
   height: 2.8rem;
   position: absolute;
   left: 3.2rem;
-  top: 88.9rem;
+  top: 98.9rem;
   display: flex;
   align-items: center;
 }
@@ -324,7 +324,7 @@ body {
   height: 2.8rem;
   position: absolute;
   left: 3.2rem;
-  top: 94.5rem;
+  top: 104.5rem;
   display: flex;
   align-items: center;
 }
@@ -515,3 +515,10 @@ body {
   border-radius: 0.1rem;
   flex-shrink: 0;
 }
+
+
+
+
+
+
+

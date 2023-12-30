@@ -61,19 +61,38 @@ This project is an Image Dashboard application that utilizes the Lorem Picsum AP
 
 7. Open your browser and go to [http://localhost:3000](http://localhost:3000) to use the Image Dashboard application.
 
+## LIVE Project Link
+https://image-dashboardproject.onrender.com
+
 ## Screenshot
 
-## Homepage 
+## Dashboard 
 
-![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/1.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/Image-Dashboard/blob/master/src/assets/OuputImages/o1.png?raw=true)
 
-## Login Page
+## Popup Form to Create card
 
-![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/2.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/Image-Dashboard/blob/master/src/assets/OuputImages/o2.png?raw=true)
 
-## Sign Up Page
+## Create card
 
-![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/3.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/Image-Dashboard/blob/master/src/assets/OuputImages/o3.png?raw=true)
+
+## Detail information page 
+
+![App Screenshot](https://github.com/devgeek2700/Image-Dashboard/blob/master/src/assets/OuputImages/o4.png?raw=true)
+
+## Popup update Form to upadte content of card
+
+![App Screenshot](https://github.com/devgeek2700/Image-Dashboard/blob/master/src/assets/OuputImages/o5.png?raw=true)
+
+## Confirm box before deleting card
+
+![App Screenshot](https://github.com/devgeek2700/Image-Dashboard/blob/master/src/assets/OuputImages/o6.png?raw=true)
+
+## After Deleting
+
+![App Screenshot](https://github.com/devgeek2700/Image-Dashboard/blob/master/src/assets/OuputImages/o7.png?raw=true)
 
 ## Usage
 

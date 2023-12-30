@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Image Dashboard Project using Lorem Picsum API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is an Image Dashboard application that utilizes the Lorem Picsum API. The application is designed to manage and display a collection of image cards on a dashboard. It offers complete CRUD (Create, Read, Update, Delete) functionality, providing users with a seamless experience for managing image information.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### Create Operation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Add New Cards:** Users can add new cards to the dashboard through a user-friendly form or modal.
+- **Input Validation:** The form validates user input to ensure accurate and necessary information is provided.
+- **Dashboard Update:** Upon validation, the new card is added to the dashboard.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Read Operation
 
-### `npm test`
+- **View Card Details:** Users can click on individual cards to view detailed information.
+- **Separate Modal or Panel:** Additional card details are displayed in a separate modal or panel for a comprehensive view.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Update Operation
 
-### `npm run build`
+- **Edit Existing Cards:** Users can easily edit the content of existing cards.
+- **Form or Inline Editing:** The application provides flexibility with a form or inline editing for effortless modification.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Delete Operation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Delete Cards:** Users can delete a card from the dashboard.
+- **Confirmation Dialogue:** A confirmation dialogue is implemented to ensure users confirm their intent to delete.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- **Lorem Picsum API:** External API for fetching random images and related information.
+- **React.js:** Frontend library for building an interactive user interface.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   git clone https://github.com/your-username/image-dashboard.git
+   ```
 
-## Learn More
+2. Navigate to the project directory:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   cd image-dashboard
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install dependencies for both the server and client:
 
-### Code Splitting
+   ```bash
+   cd ../client && npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Start the client:
 
-### Analyzing the Bundle Size
+   ```bash
+   cd ../client && npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+7. Open your browser and go to [http://localhost:3000](http://localhost:3000) to use the Image Dashboard application.
 
-### Making a Progressive Web App
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Add new cards using the provided form or modal.
+- Click on a card to view its details in a separate modal or panel.
+- Edit existing cards using the available form or inline editing.
+- Delete a card by triggering the delete operation, with a confirmation dialogue to confirm deletion.
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions in the form of issues or pull requests are welcome. Your feedback and suggestions are highly appreciated.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).

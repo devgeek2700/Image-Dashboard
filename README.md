@@ -61,6 +61,20 @@ This project is an Image Dashboard application that utilizes the Lorem Picsum AP
 
 7. Open your browser and go to [http://localhost:3000](http://localhost:3000) to use the Image Dashboard application.
 
+## Screenshot
+
+## Homepage 
+
+![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/1.png?raw=true)
+
+## Login Page
+
+![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/2.png?raw=true)
+
+## Sign Up Page
+
+![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/3.png?raw=true)
+
 ## Usage
 
 - Add new cards using the provided form or modal.

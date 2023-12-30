@@ -59,8 +59,12 @@ function Createtemp() {
     };
 
     const handleDelete = (cardId) => {
-        const updatedCards = cards.filter((card) => card.id !== cardId);
-        setCards(updatedCards);
+        const shouldDelete = window.confirm("Are you sure you want to delete this card?");
+
+        if (shouldDelete) {
+            const updatedCards = cards.filter((card) => card.id !== cardId);
+            setCards(updatedCards);
+        }
     };
 
     const handleUpdate = (cardId) => {

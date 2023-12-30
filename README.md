@@ -38,7 +38,7 @@ This project is an Image Dashboard application that utilizes the Lorem Picsum AP
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/image-dashboard.git
+   git clone https://github.com/devgeek2700/Image-Dashboard.git
    ```
 
 2. Navigate to the project directory:

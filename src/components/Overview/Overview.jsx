@@ -13,14 +13,11 @@ function Overview() {
 
   useEffect(() => {
     if (!cardDetails) {
-      // Fetch card details only if not provided in location state
       const fetchCardDetails = async () => {
         try {
-          // Assuming the image URL, title, and description are present in the state
           const cardFromStorage = JSON.parse(localStorage.getItem('cardsData'));
           const selectedCard = cardFromStorage.find((card) => card.id === parseInt(id, 10));
 
-          // Set the card details
           setCardDetails(selectedCard);
         } catch (error) {
           console.error('Error fetching card details:', error);

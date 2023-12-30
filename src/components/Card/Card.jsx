@@ -11,7 +11,6 @@ function Createtemp() {
     });
 
     const [cards, setCards] = useState(() => {
-        // Initialize state from local storage or an empty array if not available
         const storedCards = JSON.parse(localStorage.getItem('cardsData'));
         return storedCards || [];
     });
@@ -19,7 +18,6 @@ function Createtemp() {
     const [selectedCard, setSelectedCard] = useState(null);
 
     useEffect(() => {
-        // Update local storage when the cards state changes
         localStorage.setItem('cardsData', JSON.stringify(cards));
     }, [cards]);
 
